@@ -12,9 +12,6 @@ body.dark{
     background-size: cover;
 }
 
-.jobdetail p{
-    color:black
-}
 
 .contact{
     height:460px;
@@ -34,6 +31,7 @@ body.dark{
 
 .expe p{
     font-size: 155%;
+    color:black
     
 }
 
