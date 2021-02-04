@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/fond.jpg);
+    background-attachment: fixed;
+}
+
+body.dark{
+    background-image: url(images/Fond2.png);
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+header{
+    position: relative;
+    z-index: 10;
+    height: 100px;
+}
+
+.transition,
+.transitiondark{
+    height: 104px;
+    width: 768px;
+    color:#c8dff0;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+    font-size:200%;
+    padding-top: 30px;
+}
+
+.transition{
+    background-image: url(images/transition3.png);
+}
+
+.transitiondark{
+    background-image: url(images/transition.png);
+}
+
+.menu{
+    background:linear-gradient(#363331,#363331cb, #29262400);
+    position:fixed;
+    height: 70px;
+    width: 100%;
+}
+
+.menu h1{
+    position: absolute;
+    font-size: 300%;
+    margin-left: 5%;
+    text-shadow: #000000 1px 0 10px;
+    font-family: 'Dancing Script', cursive;  
+    color:#c8dff0; 
+}
+
+.menu img{
+    position:absolute;
+    height: 55px;
+    width: auto;
+    margin-top: 0.5%;
+}
+
+.exp{
+    position: absolute;
+    margin-left: 91%;
+}
+
+.passio{
+    position: absolute;
+    margin-left: 95%;
+}
+
+.cont{
+    position: absolute;
+    margin-left: 87%;
+}
+
+.mode{
+    position:absolute;
+    margin-left: 83%;
+}
+
+input{
+    visibility: hidden;
+}
+
+.contact{
+    margin-bottom: 23%;
+}
+.moi{
+    height: 500px;
+    width: auto;
+    margin-left: 30%;
+    box-shadow:-19px 15px 27px 1px rgba(0,0,0,0.75);
+    margin-top: 1%;
+}
+
+.coor, 
+.conta{
+    width: 500px;
+    height: auto;
+    background-image: url(images/fondcontact.png);
+    background-size:cover;
+    margin-left: 50%;
+    box-shadow:-19px 15px 27px 1px rgba(0,0,0,0.75)
+}
+
+
+.coor p,
+.conta p{
+    text-align: center;
+    font-family: 'Potta One', cursive;
+    font-size:150%;
+}
+
+.conta{
+    margin-top: -200px;
+}
+
+.coor{
+    margin-top: -250px;
+}
+
+.joba,
+.jobv,
+.jobp,
+.etu{
+    background-size:cover;
+    margin-top: 2%;
+    height: 48px;
+    width: 430px;
+    color:#CAE8FF;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;    
+    font-size:200%;
+    padding-top: 2px;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+
+}
+
+.joba{
+    background-image: url(images/jobv.png);
+}
+
+.jobv{
+    background-image: url(images/jobv.png);
+}
+
+.jobp{
+    background-image: url(images/jobv.png);
+}
+
+.jobdetail{
+    background-image: url(images/job3.png);
+    text-align: center;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    height: 94px;
+    width: 900px;
+}
+
+.jobdetail p{
+    padding-top: 15px;
+    font-family: 'Architects Daughter', cursive;    ;
+}
+
+.etu{
+    background-image: url(images/etud.png);
+}
+
+.Autre{
+    margin-top: 2%;
+}
+
+.goku,
+.nora,
+.koala,
+.willem,
+.sakazuki,
+.dio{
+    display: inline-block;
+}
+
+.grey1,
+.grey2,
+.grey3,
+.grey4,
+.grey5,
+.grey6,
+.passiog,
+.expg,
+.contg,
+.modeg{
+    filter: grayscale(100%);
+    transition: transform 0.7s;
+    transform: scale(0.6);
+}
+
+.colo{
+    margin-left: 10%;
+}
+
+.aautre{
+    background-image: url(images/autre1.png);
+    height: 87px;
+    width: 488px;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    color:#CAE8FF;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.aautre h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;    
+    font-size: 300%;
+    padding-top: 9px;
+
+}
+
+.fonda{
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    background-image: url(images/fonda.png);
+    height: 804px;
+    width: 732px;
+    padding: 50px;
+}
+
+.fonda p{
+    text-align: center;
+    font-family: 'Potta One', cursive;
+    font-size:150%;
+}
