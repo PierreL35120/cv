@@ -1,0 +1,65 @@
+/*-------SMALL PHONE TO SMALL TABLET 481 to 767px-------*/
+@media only screen and (max-width: 767px){
+}
+
+body{
+    background-image: url(images/fondmobile.png);
+    background-size: cover;
+}
+
+body.dark{
+    background-image: url(images/fondmobile2.png);
+    background-size: cover;
+}
+
+.contact{
+    height:460px;
+}
+.coor,
+.conta{
+    margin-left:47%
+}
+
+.contact img{
+ margin-left: 10%;
+}
+
+.lieu{
+    display:none;
+}
+
+.expe p{
+    font-size: 155%;
+    
+}
+
+.fonda p{
+    font-size: 200%;
+}
+
+.exp{
+    position: absolute;
+    margin-left: 80%;
+}
+
+.passio{
+    position: absolute;
+    margin-left: 90%;
+}
+
+.cont{
+    position: absolute;
+    margin-left: 70%;
+}
+
+.mode{
+    position:absolute;
+    margin-left: 60%;
+}
+
+.menu img{
+    position:absolute;
+    height: 100px;
+    width: auto;
+    margin-top: 0.5%;
+}
