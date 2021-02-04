@@ -12,6 +12,10 @@ body.dark{
     background-size: cover;
 }
 
+.jobdetail p{
+    color:black
+}
+
 .contact{
     height:460px;
 }
