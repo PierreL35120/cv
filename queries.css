@@ -1,6 +1,6 @@
 /*-------SMALL PHONE TO SMALL TABLET 481 to 767px-------*/
 @media only screen and (max-width: 767px){
-}
+
 
 body{
     background-image: url(images/fondmobile.png);
@@ -66,3 +66,4 @@ body.dark{
     margin-top: 0.5%;
 }
    
+}
